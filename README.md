@@ -12,11 +12,11 @@ npm install nodebb-plugin-autoresponse
 * then login to your NodeBB ACP > Extend > Plugins to activate
 * Then restart your instance
 * Then visit `/admin/plugins/autoresponse` or Plugins > AutoResponse, delegate a user to be the `bot` that replies to the users.
-* Then when creating a topic or a post type one of the predefined command as listed below
+* Then when creating a topic or a post type one of the predefined commands as listed below
+```diff
++ /pingpong
 ```
-/pingpong
-```
-You can submit commands, but they must be on separate lines.
+You can submit multiple commands in one post, but they must be on separate lines. The bot will respond all in one posts on separate lines as you did.
 
 
 ### Notes 
