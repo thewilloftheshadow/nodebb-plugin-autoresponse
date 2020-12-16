@@ -1,0 +1,29 @@
+{
+  "name": "nodebb-plugin-autoresponse",
+  "version": "0.1.1",
+  "description": "A NodeBB plugin to automatically send responses from a bot account",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "bot",
+    "automatic"
+  ],
+  "author": "Shadow <thebotoftheshadow@gmail.com>",
+  "license": "MIT",
+  "nbbpm": {
+    "compatibility": "^1.13.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thewilloftheshadow/nodebb-plugin-autoresponse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thewilloftheshadow/nodebb-plugin-autoresponse/issues"
+  },
+  "homepage": "https://github.com/thewilloftheshadow/nodebb-plugin-autoresponse#readme"
+}

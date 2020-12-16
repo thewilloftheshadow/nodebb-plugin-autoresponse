@@ -1,0 +1,16 @@
+{
+  "name": "AutoResponse",
+  "Description": "NodeBB Plugin for automatic responses",
+  "id": "nodebb-plugin-autoresponse",
+  "url": "https://github.com/thewilloftheshadow/nodebb-plugin-autoresponse",
+  "library": "library.js",
+  "hooks": [
+    { "hook": "static:app.load", "method": "init" },
+    { "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+    { "hook": "action:post.save", "method": "replyWithAutoResponse" }
+  ],
+  "acpScripts": [
+    "./static/admin.js"
+  ],
+  "templates": "static/templates"
+}
