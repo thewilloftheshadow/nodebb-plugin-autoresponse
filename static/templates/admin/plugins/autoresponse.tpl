@@ -17,6 +17,14 @@
             </div>
         </div>
 
+        <div class="col-sm-6 col-xs-12">
+            <div class="form-group">
+                <label>Command Prefix</label>
+                <input id="botUid" name="botUid" type="text" class="form-control" placeholder="/">
+                 <small>What symbol should the commands start with</small>
+            </div>
+        </div>
+
         <div class="card col-xs-12">
           <div class="card-body">
             <h5 class="card-title">Note</h5>
